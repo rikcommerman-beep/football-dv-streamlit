@@ -282,7 +282,7 @@ def page_teams(df):
             y="mean",
             text="mean",
             title="Boca match days – DV calls by result",
-            labels{"mean": "Average DV calls"},
+            labels={"mean": "Average DV calls"},
         )
         fig_b.update_traces(textposition="outside")
         st.plotly_chart(fig_b, use_container_width=True)
